@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Permanent+Marker&family=Protest+Strike&family=Sixtyfour+Convergence&display=swap');
+body {
+    font-family: 'Permanent Marker', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  url('https://th.bing.com/th/id/OIG3.3FbQhVVBnLU4UeXDdgje?pid=ImgGn');
+    color: #fff;
+    position: relative;
+    flex-direction: column; 
+    
+}
+
+
+.titulo {
+    color: ffffff; 
+    margin: 0; 
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000;
+  font-size: 10em; 
+  color: white;
+}
+
+.p {
+    color: dde4e5; 
+    margin: 10px 0; 
+    font-size: 16px; 
+}
+
+.h {
+    color: dde4e5; 
+    margin: 0; 
+    font-size: 25px; 
+}
+
+
+.contenedor {
+
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    position: relative; 
+    transform: translateY(-70%)
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 15px; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; 
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: background-color 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color: #484444; 
+    color: #fff; 
+}
+
+video {
+  width: 400px; 
+  height: 240px; 
+  border: 5px solid #020202; 
+  border-radius: 10px; 
+  margin: 20px auto; 
+  box-shadow: 5px 5px 10px #888888; 
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(58%)
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+
+
+
+
+
+
+
